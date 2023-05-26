@@ -1,0 +1,154 @@
+/*全体*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1000px;
+  background-color: #F4F9FF;
+  color: #333333;
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+section > div, footer {
+  max-width: 600px;  
+  margin: 0 auto;
+}
+
+h2, h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1px;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+/*ロゴ*/
+#logo {
+  margin-top: 60px;
+}
+
+h1 {
+  line-height: 1px;
+  width: 160px;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+/*メインビジュアル*/
+#mainvisual {
+  margin-bottom: 60px;
+}
+
+/*INDEX*/
+#white {
+  background-color: #FFFFFF;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+#index {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+}
+
+/*DETAIL*/
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#detail {
+  width: 270px;
+  padding-right: 60px;
+}
+
+#flex-right {
+  width: 270px;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
+  margin-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#flex-right > p{
+  margin-bottom: 20px;
+}
+
+#flex-right > h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 18px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
+/*footer*/
+#copyright {
+  margin-top: 115px;
+  font-size: 1rem;
+}
+
+
+/*レスポンシブ*/
+@media screen and (max-width: 1024px) {
+  #logo {
+    padding-left: 10px;
+  }
+
+  #main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  section {
+    padding:0px 40px;
+  }
+
+  #detail {
+    padding: 0px 0px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  #flex {
+    margin-right: 40px;
+  }
+
+  #flex-right {
+    width: 100%;
+  }
+
+  dt {
+    width: 25%;
+  }
+
+  dd {
+    width: 75%;
+    margin: 0;
+  }
+}
